@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1E099B151E4CFDAB00FD77D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E099B141E4CFDAB00FD77D9 /* AppDelegate.swift */; };
-		1E099B171E4CFDAB00FD77D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E099B161E4CFDAB00FD77D9 /* ViewController.swift */; };
 		1E099B1A1E4CFDAB00FD77D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E099B181E4CFDAB00FD77D9 /* Main.storyboard */; };
-		1E099B1D1E4CFDAB00FD77D9 /* OneKey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E099B1B1E4CFDAB00FD77D9 /* OneKey.xcdatamodeld */; };
 		1E099B1F1E4CFDAB00FD77D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E099B1E1E4CFDAB00FD77D9 /* Assets.xcassets */; };
 		1E099B221E4CFDAB00FD77D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E099B201E4CFDAB00FD77D9 /* LaunchScreen.storyboard */; };
 		1E099B2D1E4CFDAC00FD77D9 /* OneKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E099B2C1E4CFDAC00FD77D9 /* OneKeyTests.swift */; };
 		1E099B381E4CFDAC00FD77D9 /* OneKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E099B371E4CFDAC00FD77D9 /* OneKeyUITests.swift */; };
+		1E099B461E4CFF2600FD77D9 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E099B451E4CFF2600FD77D9 /* PasswordViewController.swift */; };
+		1E099B481E4D021A00FD77D9 /* AddDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E099B471E4D021A00FD77D9 /* AddDetailsViewController.swift */; };
+		1E30A1DE1E4F67F7004D0B21 /* ModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30A1DD1E4F67F7004D0B21 /* ModelObject.swift */; };
+		1E30A1E41E4F6A73004D0B21 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30A1E31E4F6A73004D0B21 /* UserDetails.swift */; };
+		1E30A1E61E50114D004D0B21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30A1E51E50114D004D0B21 /* Constants.swift */; };
+		1E8EDAE91E52136A0079B8AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8EDAE81E52136A0079B8AF /* LoginViewController.swift */; };
+		1E8EDAEC1E52834C0079B8AF /* OneKey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E8EDAEA1E52834C0079B8AF /* OneKey.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +42,7 @@
 /* Begin PBXFileReference section */
 		1E099B111E4CFDAB00FD77D9 /* OneKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E099B141E4CFDAB00FD77D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E099B161E4CFDAB00FD77D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E099B191E4CFDAB00FD77D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E099B1C1E4CFDAB00FD77D9 /* OneKey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneKey.xcdatamodel; sourceTree = "<group>"; };
 		1E099B1E1E4CFDAB00FD77D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E099B211E4CFDAB00FD77D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E099B231E4CFDAB00FD77D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		1E099B331E4CFDAC00FD77D9 /* OneKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E099B371E4CFDAC00FD77D9 /* OneKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneKeyUITests.swift; sourceTree = "<group>"; };
 		1E099B391E4CFDAC00FD77D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E099B451E4CFF2600FD77D9 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordViewController.swift; path = OneKey/PasswordViewController.swift; sourceTree = "<group>"; };
+		1E099B471E4D021A00FD77D9 /* AddDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDetailsViewController.swift; path = OneKey/AddDetailsViewController.swift; sourceTree = "<group>"; };
+		1E30A1DD1E4F67F7004D0B21 /* ModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelObject.swift; path = OneKey/ModelObject.swift; sourceTree = "<group>"; };
+		1E30A1E31E4F6A73004D0B21 /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		1E30A1E51E50114D004D0B21 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
+		1E8EDAE81E52136A0079B8AF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1E8EDAEB1E52834C0079B8AF /* OneKey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneKey.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,10 @@
 		1E099B081E4CFDAB00FD77D9 = {
 			isa = PBXGroup;
 			children = (
+				1E30A1E21E4F6A51004D0B21 /* DataBase */,
+				1E30A1E11E4F6A1C004D0B21 /* Controller */,
+				1E30A1E01E4F6A16004D0B21 /* View */,
+				1E30A1DF1E4F6A0F004D0B21 /* Model */,
 				1E099B131E4CFDAB00FD77D9 /* OneKey */,
 				1E099B2B1E4CFDAC00FD77D9 /* OneKeyTests */,
 				1E099B361E4CFDAC00FD77D9 /* OneKeyUITests */,
@@ -99,13 +113,11 @@
 		1E099B131E4CFDAB00FD77D9 /* OneKey */ = {
 			isa = PBXGroup;
 			children = (
+				1E30A1E51E50114D004D0B21 /* Constants.swift */,
 				1E099B141E4CFDAB00FD77D9 /* AppDelegate.swift */,
-				1E099B161E4CFDAB00FD77D9 /* ViewController.swift */,
-				1E099B181E4CFDAB00FD77D9 /* Main.storyboard */,
 				1E099B1E1E4CFDAB00FD77D9 /* Assets.xcassets */,
-				1E099B201E4CFDAB00FD77D9 /* LaunchScreen.storyboard */,
+				1E8EDAEA1E52834C0079B8AF /* OneKey.xcdatamodeld */,
 				1E099B231E4CFDAB00FD77D9 /* Info.plist */,
-				1E099B1B1E4CFDAB00FD77D9 /* OneKey.xcdatamodeld */,
 			);
 			path = OneKey;
 			sourceTree = "<group>";
@@ -126,6 +138,41 @@
 				1E099B391E4CFDAC00FD77D9 /* Info.plist */,
 			);
 			path = OneKeyUITests;
+			sourceTree = "<group>";
+		};
+		1E30A1DF1E4F6A0F004D0B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E30A1DD1E4F67F7004D0B21 /* ModelObject.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E30A1E01E4F6A16004D0B21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E099B181E4CFDAB00FD77D9 /* Main.storyboard */,
+				1E099B201E4CFDAB00FD77D9 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1E30A1E11E4F6A1C004D0B21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E099B451E4CFF2600FD77D9 /* PasswordViewController.swift */,
+				1E099B471E4D021A00FD77D9 /* AddDetailsViewController.swift */,
+				1E8EDAE81E52136A0079B8AF /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1E30A1E21E4F6A51004D0B21 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				1E30A1E31E4F6A73004D0B21 /* UserDetails.swift */,
+			);
+			name = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E099B1D1E4CFDAB00FD77D9 /* OneKey.xcdatamodeld in Sources */,
-				1E099B171E4CFDAB00FD77D9 /* ViewController.swift in Sources */,
+				1E30A1E41E4F6A73004D0B21 /* UserDetails.swift in Sources */,
 				1E099B151E4CFDAB00FD77D9 /* AppDelegate.swift in Sources */,
+				1E099B461E4CFF2600FD77D9 /* PasswordViewController.swift in Sources */,
+				1E30A1E61E50114D004D0B21 /* Constants.swift in Sources */,
+				1E30A1DE1E4F67F7004D0B21 /* ModelObject.swift in Sources */,
+				1E099B481E4D021A00FD77D9 /* AddDetailsViewController.swift in Sources */,
+				1E8EDAE91E52136A0079B8AF /* LoginViewController.swift in Sources */,
+				1E8EDAEC1E52834C0079B8AF /* OneKey.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +361,7 @@
 				1E099B191E4CFDAB00FD77D9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = OneKey;
 			sourceTree = "<group>";
 		};
 		1E099B201E4CFDAB00FD77D9 /* LaunchScreen.storyboard */ = {
@@ -317,6 +370,7 @@
 				1E099B211E4CFDAB00FD77D9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = OneKey;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +397,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akhil Tirumalasetty (86SRTMP25Q)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -419,8 +474,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HRF8G7CBE2;
 				INFOPLIST_FILE = OneKey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Akhil.OneKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,8 +489,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HRF8G7CBE2;
 				INFOPLIST_FILE = OneKey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Akhil.OneKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +577,7 @@
 				1E099B3E1E4CFDAC00FD77D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E099B3F1E4CFDAC00FD77D9 /* Build configuration list for PBXNativeTarget "OneKeyTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +586,7 @@
 				1E099B411E4CFDAC00FD77D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E099B421E4CFDAC00FD77D9 /* Build configuration list for PBXNativeTarget "OneKeyUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,16 +595,17 @@
 				1E099B441E4CFDAC00FD77D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1E099B1B1E4CFDAB00FD77D9 /* OneKey.xcdatamodeld */ = {
+		1E8EDAEA1E52834C0079B8AF /* OneKey.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1E099B1C1E4CFDAB00FD77D9 /* OneKey.xcdatamodel */,
+				1E8EDAEB1E52834C0079B8AF /* OneKey.xcdatamodel */,
 			);
-			currentVersion = 1E099B1C1E4CFDAB00FD77D9 /* OneKey.xcdatamodel */;
+			currentVersion = 1E8EDAEB1E52834C0079B8AF /* OneKey.xcdatamodel */;
 			path = OneKey.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
